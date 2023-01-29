@@ -355,6 +355,7 @@ namespace ShowCase
             this.ClientSize = new System.Drawing.Size(800, 661);
             this.Controls.Add(this.pbTSP);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "ShowcaseForm";
             this.Text = "Showcase";
             this.panel1.ResumeLayout(false);
